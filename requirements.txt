@@ -1,4 +1,4 @@
-pytest
+pytest==8.0.2
 selenium==3.141.0
 webdriver_manager
 allure-pytest==2.13.2
