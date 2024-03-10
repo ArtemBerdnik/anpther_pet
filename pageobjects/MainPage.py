@@ -24,7 +24,7 @@ class MainPage(BasePage):
         super().open_page(url)
         return self
 
-    def open_tables_page(self):
+    def open_tables_page(self) -> TablesPage:
         self.header.open_tables_page()
         return TablesPage(self.driver)
 
