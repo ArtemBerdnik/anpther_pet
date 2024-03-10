@@ -3,3 +3,4 @@ selenium==3.141.0
 webdriver_manager==4.0.1
 allure-pytest==2.13.2
 urllib3>=1.26.15,<2
+pylint
